@@ -1,0 +1,23 @@
+{
+    "name": "todo",
+    "version": "1.0.0",
+    "source": "src/index.js",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "homepage": "https://p0shta.github.io/todo-app",
+    "scripts": {
+        "dev": "parcel src/index.html --open chrome",
+        "build": "parcel build src/index.html",
+        "deploy": "gh-pages -d dist -r https://github.com/p0shta/todo-app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.5.0",
+        "gh-pages": "^4.0.0",
+        "parcel": "^2.5.0"
+    },
+    "dependencies": {
+        "@swc/helpers": "^0.3.13"
+    }
+}
